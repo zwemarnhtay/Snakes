@@ -8,7 +8,8 @@ async def launch_web_ui(update: Update, callback: CallbackContext):
         [KeyboardButton("Shopping here!", web_app=WebAppInfo("https://zwemarnhtay.github.io/Mini_Shopping/"))]
     ]
     await update.message.reply_text("Let's do this...", reply_markup=ReplyKeyboardMarkup(kb))
-
+ 
+ #rf3
 
 if __name__ == '__main__':
     # create the bot from the token:
